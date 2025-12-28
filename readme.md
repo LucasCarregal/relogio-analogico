@@ -12,11 +12,7 @@ Nada de frameworks, nada de bibliotecas — só código raiz mesmo.
 
 ## 🎥 Demonstração
 
-> GIF do relógio funcionando
-
 ![Relógio funcionando](gif.gif)
-
-> 💡 Dica: coloque o GIF dentro de uma pasta `gif/` com o nome `relogio.gif`
 
 ---
 
