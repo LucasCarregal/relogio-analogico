@@ -1,0 +1,107 @@
+.clock {
+  width: 320px;
+  height: 320px;
+  border: 8px solid #222;
+  border-radius: 50%;
+  position: relative;
+  margin: 40px auto;
+}
+
+.num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-135px)
+    rotate(calc(var(--angle) * -1));
+  font: 700 22px/1 system-ui;
+}
+
+/* base comum pros ponteiros */
+.hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 100%; /* “pivô” na base do ponteiro */
+  transform: translate(-50%, -100%) rotate(0deg);
+  border-radius: 999px;
+}
+
+/* tamanhos */
+.hour {
+  width: 10px;
+  height: 80px;
+  background: #222;
+}
+
+.minute {
+  width: 7px;
+  height: 110px;
+  background: #333;
+}
+
+.second {
+  width: 3px;
+  height: 130px;
+  background: #d11;
+}
+
+/* pino do meio */
+.pin {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #222;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.marks {
+  position: absolute;
+  inset: 10px; /* distância da borda */
+  border-radius: 50%;
+}
+
+.mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+}
+
+/* risquinho normal (segundo) */
+.mark.small {
+  width: 2px;
+  height: 8px;
+  background: #555;
+}
+
+/* risquinho maior (minuto / 5 em 5) */
+.mark.big {
+  width: 3px;
+  height: 14px;
+  background: #222;
+}
+
+.internal-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font: 700 16px/1 system-ui;
+  letter-spacing: 1px;
+  z-index: 5;
+}
+
+.calendar {
+  top: 30%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.digital {
+  top: 70%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.08);
+}
