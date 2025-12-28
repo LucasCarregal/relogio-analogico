@@ -60,7 +60,7 @@ relogio/
 │   └── script.js
 └── gif/
     └── relogio.gif
-
+```
 ## 🚀 Como rodar
 
 1. Clone o repositório
@@ -74,4 +74,4 @@ Se você também curte brincar com CSS e JS puro, fica aí a inspiração 😉
 
 ## 📜 Licença
 Use, copie, modifique e se divirta.
-```
+
