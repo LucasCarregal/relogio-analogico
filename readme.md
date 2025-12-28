@@ -54,12 +54,9 @@ relogio/
 │
 ├── index.html
 ├── favicon.ico
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── gif/
-    └── relogio.gif
+├── style.css
+├── script.js
+└── gif.gif
 ```
 ## 🚀 Como rodar
 
