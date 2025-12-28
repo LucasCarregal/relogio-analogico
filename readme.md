@@ -56,7 +56,8 @@ relogio/
 ├── favicon.ico
 ├── style.css
 ├── script.js
-└── gif.gif
+├── gif.gif
+└── readme.md
 ```
 ## 🚀 Como rodar
 
