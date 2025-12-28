@@ -12,9 +12,9 @@ Nada de frameworks, nada de bibliotecas — só código raiz mesmo.
 
 ## 🎥 Demonstração
 
-> GIF do relógio funcionando (adicione o arquivo depois 👇)
+> GIF do relógio funcionando
 
-![Relógio funcionando](./gif/relogio.gif)
+![Relógio funcionando](gif.gif)
 
 > 💡 Dica: coloque o GIF dentro de uma pasta `gif/` com o nome `relogio.gif`
 
